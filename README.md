@@ -19,3 +19,4 @@ The run_analysis script performs the following steps :
 7. Appropriately labels the data set with descriptive variable names using 'features.txt'.
 8. Adds a subject column using 'subject_train.txt' and 'subject_test.txt' files to obtain a first tidy data set.
 9. From the data set in step 8, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+10. The data set is written to a "txt" file "meanMeasurements.txt".
