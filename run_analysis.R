@@ -38,4 +38,4 @@ finalDataSet <- firstDataSet %>% group_by(subject, activity)%>%
   summarise_all(mean)
 
 # Write final dataset into a text file 
-write.table(x = finalDataSet, file="meanMeasurements.txt")
+write.table(x = finalDataSet, file="meanMeasurements.txt", row.names = FALSE)
